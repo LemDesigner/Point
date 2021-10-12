@@ -1,0 +1,23 @@
+@media (min-width: 320px) {
+  .input_name {
+    font-size: 11px;
+  }
+}
+@media (min-width: 375px) {
+  .input_name {
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 52%;
+    margin-left: 132px;
+  }
+
+  .absolute {
+    position: absolute;
+    width: 356px;
+    left: 92%;
+    top: 128px;
+  }
+}

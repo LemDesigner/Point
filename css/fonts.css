@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Thin'), local('Helvetica-Neue-Thin'),
+        url('HelveticaNeueCyr-Thin.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Thin.woff') format('woff'),
+        url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+    font-weight: 100;
+    src: local('Helvetica Neue Light'), local('Helvetica-Neue-Light'),
+        url('HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Light.woff') format('woff'),
+        url('HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
+        url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: 400;
+    src: local('Helvetica Neue Medium'), local('Helvetica-Neue-Medium'),
+        url('HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    src: local('Helvetica Neue Bold'), local('Helvetica-Neue-Bold'),
+        url('HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: 700;
+    src: local('Helvetica Neue Black'), local('Helvetica-Neue-Black'),
+        url('HelveticaNeueCyr-Black.woff2') format('woff2'),
+        url('HelveticaNeueCyr-Black.woff') format('woff'),
+        url('HelveticaNeueCyr-Black.ttf') format('truetype');
+    font-weight: 900;
+  }

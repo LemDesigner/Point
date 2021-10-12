@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/point_logo.ico">
+    <title>PointPoint®</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="fonts/helvetica/fonts.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 class="header__title">FTL: Прямая машина</h1>
+            </header>
+            <section class="section">
+                <div class="item-destination">
+                    <div class="item__title title">
+                        <input class="title__number" type="button" value="1">
+                        <h2 class="title__name">Маршрут</h2>
+                    </div>
+                    <div class="item__input">
+                        <p class="input_name">Откуда</p>
+                        <input class="input_value" type="text">
+                    </div>
+                    <div class="item__input">
+                        <p class="input_name">Куда</p>
+                        <input class="input_value" type="text">
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="item-transport">
+                    <div class="item__title title">
+                        <input class="title__number" type="button" value="2">
+                        <h2 class="title__name">Транспорт</h2>
+                    </div>
+                    <div class="row">
+                        <div class="row__input">
+                            <p class="input_name">Грузоподъёмность</p>
+                            <div class="input_list">
+                                <input class="input_check gray" type="button" value="Не выбрана">
+                                <input class="input_down" type="image" src="img/Dropdown.svg">
+                            </div>
+                        </div>
+                        <div class="row__input">
+                            <p class="input_name">Способ погрузки</p>
+                            <div class="input_list">
+                                <input class="input_check" type="button" value="Задняя">
+                                <input class="input_down" type="image" src="img/Dropdown.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="item-cargo">
+                    <div class="item__title title">
+                        <input class="title__number" type="button" value="2">
+                        <h2 class="title__name">Груз</h2>
+                    </div>
+                    <div class="row">
+                        <div class="row__input">
+                            <p class="input_name">Тип груза</p>
+                            <div class="input_list">
+                                <input class="input_check gray" type="button" value="Не выбрана">
+                                <input class="input_down" type="image" src="img/Dropdown.svg">
+                            </div>
+                        </div>
+                        <div class="row__input">
+                            <p class="input_name">Объявленная ценность, ₽</p>
+                            <div class="input_list">
+                                <input class="input_check gray" type="button" value="≥ 1">
+                                <input class="input_down" type="image" src="img/Dropdown.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="check_box" class="item__title check_box">
+                        <input class="box red" type="image" src="img/Combined-Shape.svg">
+                        <span class="check_box__text">Требуется температурный режим</span>
+                    </div>
+                    <div class="row">
+                        <div class="row__input">
+                            <p class="input_name">От, °C</p>
+                            <div class="input_list">
+                                <input class="input_check" type="button" value="-20">
+                            </div>
+                        </div>
+                        <div class="row__input">
+                            <p class="input_name">До, °C</p>
+                            <div class="input_list">
+                                <input class="input_check" type="button" value="+23">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="item-time">
+                    <div class="item__title title">
+                        <input class="title__number" type="button" value="4">
+                        <h2 class="title__name">Время</h2>
+                    </div>
+                    <div class="item__input">
+                        <div class="time_name">
+                            <p class="input_name">Когда прибыть на точку</p>
+                            <p class="input_name">700 км в день</p>
+                        </div>
+                        <div class="main-dot">
+                            <input class="dot" type="image" src="img/Subtract.svg">
+                            <p class="main_value gradient">Длинный адрес с градиентом</p>
+                            <input class="main_button" type="button" value="НЕ ВЫБРАНО">
+                        </div>
+                        <div class="main-dot">
+                            <input class="dot" type="image" src="img/main-dot.svg">
+                            <p class="main_value">Адрес не указан</p>
+                            <input class="main_button inactive" type="button" value="НЕ ВЫБРАНО">
+                        </div>
+                    </div>
+                    <div class="item__input">
+                        <p class="input_name">Комментарий к заказу</p>
+                        <textarea class="input_value" placeholder="Укажите особенности въезда натерриторию склада или подъезда к адресу"></textarea>
+                    </div>
+                </div>
+            </section>
+            <section class="section absolute">
+                <div class="notification down">
+                    <p class="notification__paragraf">Для расчета стоимости необходимо ввести параметры груза, пункты отправки и прибытия.</p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
